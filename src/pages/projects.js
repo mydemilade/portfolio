@@ -7,7 +7,7 @@ import Link from 'next/link';
 import React from 'react';
 import project1 from '../../public/images/projects/crypto-screener-cover-image.jpg';
 import project2 from '../../public/images/projects/nft-collection-website-cover-image.jpg';
-import project3 from '../../public/images/projects/fashion-studio-website.jpg';
+import project3 from '../../public/images/projects/dark.png';
 // import project4 from '../../public/images/projects/netflix-cover.png';
 // import project5 from '../../public/images/projects/dotlaunch.png';
 // import project6 from '../../public/images/projects/comfysloth.png';
@@ -137,7 +137,9 @@ const projects = () => {
                github="https://github.com/williamslsy/weirdos-nft" />
             </div>
             <div className="col-span-6 sm:col-span-12">
-              <Project type="WebApp" title="Fashion Studio Website" img={project3} link="https://waliba-wibestudio.netlify.app/" github="https://github.com/williamslsy/wibe-studio" />
+              <Project type="WebApp" title="A Food Ordering App" img={project3} 
+              link="https://flavoo.vercel.app/" 
+              github="https://github.com/mydemilade/flavo" />
             </div>
 
             {/* <div className="col-span-12">
