@@ -6,7 +6,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 import project1 from '../../public/images/projects/crypto-screener-cover-image.jpg';
-import project2 from '../../public/images/projects/nft-collection-website-cover-image.jpg';
+import project2 from '../../public/images/projects/nike.jpg';
 import project3 from '../../public/images/projects/flavoro.jpg';
 // import project4 from '../../public/images/projects/netflix-cover.png';
 // import project5 from '../../public/images/projects/dotlaunch.png';
@@ -132,9 +132,9 @@ const projects = () => {
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
-              <Project type="Web3" title="NFT collection Website" img={project2}
-               link="https://github.com/williamslsy/weirdos-nft"
-               github="https://github.com/williamslsy/weirdos-nft" />
+              <Project type="Web3" title="Nike Store Website" img={project2}
+               link="https://nike-store-react-mu.vercel.app//"
+               github="https://github.com/mydemilade/nike-store-react" />
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project type="WebApp" title="A Food Ordering App" img={project3} 
