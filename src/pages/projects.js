@@ -132,7 +132,7 @@ const projects = () => {
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
-              <Project type="Web3" title="Nike Store Website" img={project2}
+              <Project type="WebApp" title="Nike Store Website" img={project2}
                link="https://nike-store-react-mu.vercel.app//"
                github="https://github.com/mydemilade/nike-store-react" />
             </div>
