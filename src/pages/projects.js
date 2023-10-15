@@ -7,7 +7,7 @@ import Link from 'next/link';
 import React from 'react';
 import project1 from '../../public/images/projects/crypto-screener-cover-image.jpg';
 import project2 from '../../public/images/projects/nft-collection-website-cover-image.jpg';
-import project3 from '../../public/images/projects/flavoro.png';
+import project3 from '../../public/images/projects/dark.png';
 // import project4 from '../../public/images/projects/netflix-cover.png';
 // import project5 from '../../public/images/projects/dotlaunch.png';
 // import project6 from '../../public/images/projects/comfysloth.png';
