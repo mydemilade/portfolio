@@ -148,16 +148,16 @@ const projects = () => {
                 title="A netflix redesign app"
                 summary="netflix redesign concept with api from the movie db"
                 img={project4}
-                link="https://netflix-redesign.netlify.app/"
-                github="https://github.com/williamslsy/netflix"
+                link="https:///"
+                github="https://"
               />
             </div>
 
             <div className="col-span-6 sm:col-span-12">
-              <Project type="DApp" img={project5} title="Dotlaunch Web App" link="https://dotlaunch.netlify.ap" github="https://github.com/williamslsy/dotlaunch" />
+              <Project type="" img={project5} title="" link="" github="" />
             </div>
             <div className="col-span-6 sm:col-span-12">
-              <Project type="Ecommerce WebApp" img={project6} title="ComfySloth" link="https://mycomfysloth.netlify.app/" github="https://github.com/williamslsy/mycomfysloth" />
+              <Project type="" img={project6} title="" link="" github="" />
             </div> */}
           </div>
         </Layout>
