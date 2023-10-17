@@ -45,7 +45,7 @@ export default function Home() {
             As a skilled full-stack developer, I am dedicated to turning ideas into innovative web applications. Explore my latest projects and articles, showcasing my expertise in React.js and web development.
             </p>
             <div className="flex items-center self-start mt-2 lg:self-center">
-            <Link href='/dummy.pdf'
+            <Link href='/DEMILADE.pdf'
             target={'_blank'}
             className="flex items-center bg-dark text-light p-2.5 px-6
             rounded-lg text-lg font-semibold
