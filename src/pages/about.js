@@ -87,7 +87,7 @@ bg-light p-8 dark:bg-dark dark:border-light xl:col-span-4 md:order-1 md:col-span
                   className="text-xl font-medium capitalize text-dark/75 dark:text-light/75 xl:text-center md:text-lg sm:text-base
                 xs:text-sm"
                 >
-                  satisfied clients
+                  {/* satisfied clients */}
                 </h2>
               </div>
               <div className="flex flex-col items-end justify-center xl:items-center">
@@ -109,7 +109,7 @@ bg-light p-8 dark:bg-dark dark:border-light xl:col-span-4 md:order-1 md:col-span
                   className="text-xl font-medium capitalize text-dark/75 dark:text-light/75 xl:text-center md:text-lg sm:text-base
                 xs:text-sm"
                 >
-                  years of experience
+                  1 year of experience
                 </h2>
               </div>
 
@@ -117,7 +117,7 @@ bg-light p-8 dark:bg-dark dark:border-light xl:col-span-4 md:order-1 md:col-span
 
                 </div>
                 <Skills/>
-                
+                <Experience />
                 <Education/>
         </Layout>
           </main>

@@ -1,10 +1,10 @@
-import Head from 'next/head'
-import Layout from '@/components/Layout'
-import Image from 'next/image'
-import profilePic from "../../public/images/profile/deve.png"
-import AnimatedText from '@/components/AnimatedText'
+import Head from 'next/head';
+import Layout from '@/components/Layout';
+import Image from 'next/image';
+import profilePic from "../../public/images/profile/deve.png";
+import AnimatedText from '@/components/AnimatedText';
 import Link from 'next/link';
-import HireMe from '@/components/HireMe'
+import HireMe from '@/components/HireMe';
 import lightBulb from '../../public/images/svgs/miscellaneous_icons_1.svg';
 
 
@@ -45,7 +45,7 @@ export default function Home() {
             As a skilled full-stack developer, I am dedicated to turning ideas into innovative web applications. Explore my latest projects and articles, showcasing my expertise in React.js and web development.
             </p>
             <div className="flex items-center self-start mt-2 lg:self-center">
-            <Link href='/DEMILADE.pdf'
+            <Link href='/devdemi.pdf'
             target={'_blank'}
             className="flex items-center bg-dark text-light p-2.5 px-6
             rounded-lg text-lg font-semibold
