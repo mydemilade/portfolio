@@ -129,14 +129,14 @@ const projects = () => {
                 github="https://github.com/mydemilade/cryptosearch"
               />
             </div>
-            <div className="col-span-6 sm:col-span-12">
+            {/* <div className="col-span-6 sm:col-span-12">
               <Project type="WebApp" 
               title="Nike Store Website"
               summary="An amazing ecommerce project with a great ui"
                img={project2}
                link="https://nike-store-react-mu.vercel.app/"
                github="https://github.com/mydemilade/nike-store-react" />
-            </div>
+            </div> */}
             <div className="col-span-6 sm:col-span-12">
               <Project type="WebApp"
                title="A Food Ordering App"
