@@ -8,9 +8,6 @@ import React from 'react';
 import project1 from '../../public/images/projects/crypto-screener-cover-image.jpg';
 import project2 from '../../public/images/projects/nikee.jpg';
 import project3 from '../../public/images/projects/flavoro.jpg';
-// import project4 from '../../public/images/projects/netflix-cover.png';
-// import project5 from '../../public/images/projects/dotlaunch.png';
-// import project6 from '../../public/images/projects/comfysloth.png';
 import { motion } from 'framer-motion';
 import TransitionEffect from '@/components/TransitionEffect';
 
@@ -111,14 +108,13 @@ const projects = () => {
         <title>Modern Portfolio Built with Nextjs | Projects Page</title>
         <meta
           name="description"
-          content="Discover the latest webapp projects created by Waliba, a Next.js developer with 
-        expertise in React.js and full-stack development."
+          content="Discover the latest webapp projects created by Demi, a Frontend Developer using all the latest technologies"
         />
       </Head>
       <TransitionEffect />
       <main className="w-full mb-16 flex flex-col items-center justify-center dark:text-light">
         <Layout className="pt-16">
-          <AnimatedText text="Imagination Trumps Knowledge!" className="mb-16 lg:!text-7xl sm:mb-8 sm:!text-6xl xs:!text-4xl" />
+          <AnimatedText text="PROJECTS" className="mb-16 lg:!text-7xl sm:mb-8 sm:!text-6xl xs:!text-4xl" />
 
           <div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0">
             <div className="col-span-12">
@@ -132,33 +128,21 @@ const projects = () => {
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
-              <Project type="WebApp" title="Nike Store Website" img={project2}
-               link="https://nike-store-react-mu.vercel.app//"
+              <Project type="WebApp" 
+              title="Nike Store Website"
+              summary="An amazing ecommerce project with a great ui"
+               img={project2}
+               link="https://nike-store-react-mu.vercel.app/"
                github="https://github.com/mydemilade/nike-store-react" />
             </div>
             <div className="col-span-6 sm:col-span-12">
-              <Project type="WebApp" title="A Food Ordering App" img={project3} 
+              <Project type="WebApp"
+               title="A Food Ordering App"
+               summary="A food app that enables users to browse, select, and order food from a restaurant or food establishment. This app typically offers a range of features to enhance the user experience and streamline the process of ordering food."
+               img={project3} 
               link="https://flavoo.vercel.app/" 
               github="https://github.com/mydemilade/flavo" />
             </div>
-
-            {/* <div className="col-span-12">
-              <FeaturedProject
-                type="WebApp"
-                title="A netflix redesign app"
-                summary="netflix redesign concept with api from the movie db"
-                img={project4}
-                link="https:///"
-                github="https://"
-              />
-            </div>
-
-            <div className="col-span-6 sm:col-span-12">
-              <Project type="" img={project5} title="" link="" github="" />
-            </div>
-            <div className="col-span-6 sm:col-span-12">
-              <Project type="" img={project6} title="" link="" github="" />
-            </div> */}
           </div>
         </Layout>
       </main>
