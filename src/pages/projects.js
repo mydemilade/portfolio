@@ -8,6 +8,7 @@ import React from 'react';
 import project1 from '../../public/images/projects/crypto-screener-cover-image.jpg';
 import project2 from '../../public/images/projects/nikee.jpg';
 import project3 from '../../public/images/projects/flavoro.jpg';
+import project4 from '../../public/images/projects/Bank.jpg'
 import { motion } from 'framer-motion';
 import TransitionEffect from '@/components/TransitionEffect';
 
@@ -142,6 +143,16 @@ const projects = () => {
                img={project3} 
               link="https://flavoo.vercel.app/" 
               github="https://github.com/mydemilade/flavo" />
+            </div>
+            <div className="col-span-12">
+              <FeaturedProject
+                type="Web3"
+                title="Bank UI"
+                summary="A."
+                img={project4}
+                link="https://bank-app-ui-two.vercel.app/"
+                github="https://github.com/mydemilade/Bank_App_Ui"
+              />
             </div>
           </div>
         </Layout>
