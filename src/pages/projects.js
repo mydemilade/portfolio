@@ -159,7 +159,7 @@ const projects = () => {
               <FeaturedProject
                 type="WebApp"
                 title="PriceWise: A webscraping application"
-                summary="The Web Scraping Application efficiently extracts and analyzes data from multiple websites using Axios for HTTP requests, Cheerio for HTML parsing, and Mongoose for data storage. It is built on Next.js and React, offering a smooth user interface. With React Responsive Carousel for organized data display and Nodemailer for seamless communication, the app provides a powerful and user-friendly solution for real-time data extraction and analysis.All you have to do is copy and paste a link to the product you need to scrape from amazon and you're to go."
+                summary="The Web Scraping Application efficiently extracts and analyzes data from multiple websites using Axios for HTTP requests, Cheerio for HTML parsing, and Mongoose for data storage. It is built on Next.js and React, offering a smooth user interface. With React Responsive Carousel for organized data display and Nodemailer for seamless communication, the app provides a powerful and user-friendly solution for real-time data extraction and analysis.All you have to do is copy and paste a link to the product you need to scrape from amazon and you're good to go."
                 img={project5}
                 link="https://pricewise-jade.vercel.app/"
                 github="https://github.com/mydemilade/pricewise"
