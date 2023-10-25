@@ -8,7 +8,8 @@ import React from 'react';
 import project1 from '../../public/images/projects/crypto-screener-cover-image.jpg';
 import project2 from '../../public/images/projects/nikee.jpg';
 import project3 from '../../public/images/projects/flavoro.jpg';
-import project4 from '../../public/images/projects/Bank.jpg'
+import project4 from '../../public/images/projects/Bank.jpg';
+import project5 from '../../public/images/projects/PriceWise.jpg'
 import { motion } from 'framer-motion';
 import TransitionEffect from '@/components/TransitionEffect';
 
@@ -152,6 +153,16 @@ const projects = () => {
                 img={project4}
                 link="https://bank-app-ui-two.vercel.app/"
                 github="https://github.com/mydemilade/Bank_App_Ui"
+              />
+            </div>
+            <div className="col-span-12">
+              <FeaturedProject
+                type="WebApp"
+                title="PriceWise: A webscraping application"
+                summary="The Web Scraping Application efficiently extracts and analyzes data from multiple websites using Axios for HTTP requests, Cheerio for HTML parsing, and Mongoose for data storage. It is built on Next.js and React, offering a smooth user interface. With React Responsive Carousel for organized data display and Nodemailer for seamless communication, the app provides a powerful and user-friendly solution for real-time data extraction and analysis.All you have to do is copy and paste a link to the product you need to scrape from amazon and you're to go."
+                img={project5}
+                link="https://pricewise-jade.vercel.app/"
+                github="https://github.com/mydemilade/pricewise"
               />
             </div>
           </div>
