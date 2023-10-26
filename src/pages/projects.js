@@ -9,7 +9,8 @@ import project1 from '../../public/images/projects/crypto-screener-cover-image.j
 import project2 from '../../public/images/projects/nikee.jpg';
 import project3 from '../../public/images/projects/flavoro.jpg';
 import project4 from '../../public/images/projects/Bank.jpg';
-import project5 from '../../public/images/projects/PriceWise.jpg'
+import project5 from '../../public/images/projects/pricewise.jpg'
+import project6 from '../../public/images/projects/bookhub.jpg'
 import { motion } from 'framer-motion';
 import TransitionEffect from '@/components/TransitionEffect';
 
@@ -129,14 +130,14 @@ const projects = () => {
                 github="https://github.com/mydemilade/cryptosearch"
               />
             </div>
-            {/* <div className="col-span-6 sm:col-span-12">
+            <div className="col-span-6 sm:col-span-12">
               <Project type="WebApp" 
               title="Nike Store Website"
               summary="An amazing ecommerce project with a great ui"
                img={project2}
                link="https://nike-store-react-mu.vercel.app/"
                github="https://github.com/mydemilade/nike-store-react" />
-            </div> */}
+            </div>
             <div className="col-span-6 sm:col-span-12">
               <Project type="WebApp"
                title="A Food Ordering App"
@@ -147,16 +148,6 @@ const projects = () => {
             </div>
             <div className="col-span-12">
               <FeaturedProject
-                type="Web3"
-                title="Bank UI"
-                summary="A."
-                img={project4}
-                link="https://bank-app-ui-two.vercel.app/"
-                github="https://github.com/mydemilade/Bank_App_Ui"
-              />
-            </div>
-            <div className="col-span-12">
-              <FeaturedProject
                 type="WebApp"
                 title="PriceWise: A webscraping application"
                 summary="The Web Scraping Application efficiently extracts and analyzes data from multiple websites using Axios for HTTP requests, Cheerio for HTML parsing, and Mongoose for data storage. It is built on Next.js and React, offering a smooth user interface. With React Responsive Carousel for organized data display and Nodemailer for seamless communication, the app provides a powerful and user-friendly solution for real-time data extraction and analysis.All you have to do is copy and paste a link to the product you need to scrape from amazon and you're good to go."
@@ -164,6 +155,22 @@ const projects = () => {
                 link="https://pricewise-jade.vercel.app/"
                 github="https://github.com/mydemilade/pricewise"
               />
+            </div>
+            <div className="col-span-6 sm:col-span-12">
+              <Project type="Web3"
+               title="Bank UI"
+               img={project4} 
+               link="https://bank-app-ui-two.vercel.app/"
+                github="https://github.com/mydemilade/Bank_App_Ui"
+                />
+            </div>
+            <div className="col-span-6 sm:col-span-12">
+              <Project type="WebApp"
+               title="Book Hub"
+               img={project6} 
+               link="https://bookhub-sepia.vercel.app/"
+                github="https://github.com/mydemilade/bookhub"
+                />
             </div>
           </div>
         </Layout>
