@@ -40,13 +40,12 @@ const about = () => {
    <Head>
    <title>Minimal Portfolio Built with Nextjs | About Page</title>
         <meta name="description"
-          content="Learn more about CodeBucks, a Next.js developer with a passion for 
-        creating innovative solutions. Discover tips for building a developer portfolio and insights on front-end development."
+          content=""
         />
           </Head>
         <main className="flex w-full flex-col items-center justify-center dark:text-light">
         <Layout className="pt-16">
-          <AnimatedText text="Passion Fuels Purpose!" />
+          <AnimatedText text="" />
           <div className="grid w-full grid-cols-8 gap-16 sm:gap-8">
             <div className="col-span-3 flex flex-col items-start justify-start xl:col-span-4 md:order-2 md:col-span-8">
                <h2  className="mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light/75">Biography</h2>
@@ -78,29 +77,7 @@ bg-light p-8 dark:bg-dark dark:border-light xl:col-span-4 md:order-1 md:col-span
               33vw"
               />
               </div>
-              <div className="col-span-2 flex flex-col items-end justify-between xl:col-span-8 xl:flex-row xl:items-center md:order-3">
-              {/* <div className="flex flex-col items-end justify-center xl:items-center">
-                <span className="inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl">
-                  <AnimatedNumbers value={10} />+
-                </span>
-                <h2
-                  className="text-xl font-medium capitalize text-dark/75 dark:text-light/75 xl:text-center md:text-lg sm:text-base
-                xs:text-sm"
-                >
-                  satisfied clients
-                </h2>
-              </div> */}
-              {/* <div className="flex flex-col items-end justify-center xl:items-center">
-                <span className="inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl">
-                  <AnimatedNumbers value={30} />+
-                </span>
-                <h2
-                  className="text-xl font-medium capitalize text-dark/75 dark:text-light/75 xl:text-center md:text-lg sm:text-base
-                xs:text-sm"
-                >
-                  projects completed
-                </h2>
-              </div> */}
+              <div className="col-span-2 flex flex-col items-end justify-between xl:col-span-8 xl:flex-row xl:items-center md:order-3"> 
               <div className="flex flex-col items-end justify-center xl:items-center">
                 <span className="inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl">
                   <AnimatedNumbers value={1} />+
