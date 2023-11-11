@@ -11,6 +11,7 @@ import project3 from '../../public/images/projects/flavoro.jpg';
 import project4 from '../../public/images/projects/Bank.jpg';
 import project5 from '../../public/images/projects/pricewise.jpg'
 import project6 from '../../public/images/projects/bookhub.jpg'
+import project7 from '../../public/images/projects/carhub.jpg'
 import { motion } from 'framer-motion';
 import TransitionEffect from '@/components/TransitionEffect';
 
@@ -171,6 +172,16 @@ const projects = () => {
                link="https://bookhub-sepia.vercel.app/"
                 github="https://github.com/mydemilade/bookhub"
                 />
+            </div>
+            <div className="col-span-12">
+              <FeaturedProject
+                type="WebApp"
+                title="Car Showcase"
+                summary="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"
+                img={project7} 
+                link="https://carshowcase-zeta.vercel.app/"
+                 github="https://github.com/mydemilade/carshowcase"
+              />
             </div>
           </div>
         </Layout>
