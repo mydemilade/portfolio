@@ -121,14 +121,14 @@ const projects = () => {
           <AnimatedText text="PROJECTS" className="mb-16 lg:!text-7xl sm:mb-8 sm:!text-6xl xs:!text-4xl" />
 
           <div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0">
-          <div className="col-span-12">
+            <div className="col-span-12">
               <FeaturedProject
-                type="WebApp"
-                title="Car Showcase"
-                summary="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"
-                img={project7} 
-                link="https://carshowcasse.vercel.app/"
-                 github="https://github.com/mydemilade/carshowcase"
+                type="Web3"
+                title="Crypto Screener Application"
+                summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your local currency."
+                img={project1}
+                link="https://checked-irjl.vercel.app/"
+                github="https://github.com/mydemilade/cryptosearch"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
@@ -173,7 +173,16 @@ const projects = () => {
                 github="https://github.com/mydemilade/bookhub"
                 />
             </div>
-           
+            <div className="col-span-12">
+              <FeaturedProject
+                type="WebApp"
+                title="Car Showcase"
+                summary="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"
+                img={project7} 
+                link="https://carshowcasse.vercel.app/"
+                 github="https://github.com/mydemilade/carshowcase"
+              />
+            </div>
           </div>
         </Layout>
       </main>
